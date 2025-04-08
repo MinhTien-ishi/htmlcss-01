@@ -119,16 +119,17 @@ a {
     border-radius: 8px;
 }
 
-.hero {
-    /* padding-top: 130px; */
-    margin-top: 130px;
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -136,7 +137,7 @@ a {
     letter-spacing: 0.18px;
 }
 
-.hero .title {
+.hero-wrap .title {
     margin-top: 8px;
     color: #000336;
     font-size: 6.2rem;
@@ -144,7 +145,7 @@ a {
     line-height: 1.19; /* 118.75% */
 }
 
-.hero .desc {
+.hero-wrap .desc {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
@@ -152,12 +153,12 @@ a {
     line-height: 1.78; /* 177.778% */
 }
 
-.hero .hero-cta {
+.hero-wrap .hero-cta {
     margin-top: 40px;
     min-width: 170px;
 }
 
-.hero .hero-img {
+.hero-wrap .hero-img {
     position: absolute;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
